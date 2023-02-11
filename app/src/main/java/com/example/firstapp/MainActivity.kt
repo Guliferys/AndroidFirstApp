@@ -31,12 +31,6 @@ class MainActivity : AppCompatActivity() {
             bindingClass.txt1Main.text = data.getStringExtra("key2")
         }
     }
-
-    fun onClickGoTestActivity1(view: View){
-        var i = Intent(this, TestActivity1::class.java)
-        i.putExtra("key","What's your name?")
-        startActivityForResult(i,100)
-    }
 }
 
 
