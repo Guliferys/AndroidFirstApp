@@ -13,7 +13,7 @@ import com.example.firstapp.databinding.ActivityMainBinding
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
-    lateinit var bindingClass : ActivityMainBinding
+    lateinit var bindingClass: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         bindingClass.txt1Main.text = message
 
     }
-
+}
 
 
 
