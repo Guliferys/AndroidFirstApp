@@ -1,0 +1,45 @@
+[33mcommit 8d7e44d2487dbd1f1ae7064239cce5072db8b2f8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: bd972db 3fc8d82
+Author: Augustin Onta <onta.augustin@isa.utm.md>
+Date:   Sat Feb 11 17:18:56 2023 +0200
+
+    wut2
+
+[33mcommit bd972db83f20c83010b1295422aac71a3e2be2ed[m
+Author: Augustin Onta <onta.augustin@isa.utm.md>
+Date:   Sat Feb 11 17:17:00 2023 +0200
+
+    wut
+
+[33mcommit 61f2ba203340b17733366308e6ed4c90f8d6c8fa[m
+Author: Augustin Onta <onta.augustin@isa.utm.md>
+Date:   Sat Feb 11 16:56:07 2023 +0200
+
+    test
+
+[33mcommit 3fc8d8245880482b285351636e7c5ac3fab6d8bf[m
+Merge: 379c454 251315c
+Author: Guliferys <48925329+Guliferys@users.noreply.github.com>
+Date:   Sat Feb 11 17:51:55 2023 +0300
+
+    Merge pull request #1 from Guliferys/develop
+    
+    Develop
+
+[33mcommit 251315c24e554a93298171517ee21af9f83c0b5e[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Augustin Onta <onta.augustin@isa.utm.md>
+Date:   Sat Feb 11 16:48:17 2023 +0200
+
+    test2
+
+[33mcommit c72d6729655a9cf031cf950125416a965d3f0b69[m
+Author: Augustin Onta <onta.augustin@isa.utm.md>
+Date:   Sat Feb 11 16:44:31 2023 +0200
+
+    test
+
+[33mcommit 379c454158c5f1f924aafed33a4a9db88676232b[m[33m ([m[1;36mHEAD -> [m[1;32mtester[m[33m, [m[1;31morigin/tester[m[33m, [m[1;31morigin/developer[m[33m)[m
+Author: Augustin Onta <onta.augustin@isa.utm.md>
+Date:   Sat Feb 11 16:23:26 2023 +0200
+
+    Android First App
