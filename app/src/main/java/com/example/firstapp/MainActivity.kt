@@ -24,15 +24,6 @@ class MainActivity : AppCompatActivity() {
         bindingClass.txt1Main.text = message
 
     }
-<<<<<<< ours
-
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        if(requestCode == 100 && resultCode == RESULT_OK && data != null){
-            bindingClass.txt1Main.text = data.getStringExtra("key2")
-        }
-    }
-||||||| base
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -41,13 +32,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun onClickGoTestActivity1(view: View){
-        var i = Intent(this, TestActivity1::class.java)
-        i.putExtra("key","What's your name?")
-        startActivityForResult(i,100)
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if(requestCode == 100 && resultCode == RESULT_OK && data != null){
+            bindingClass.txt1Main.text = data.getStringExtra("key2")
+        }
     }
-=======
->>>>>>> theirs
 }
 
 
